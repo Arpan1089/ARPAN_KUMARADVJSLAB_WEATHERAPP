@@ -1,0 +1,47 @@
+html,body {
+    background-image: url("https://www.gamespot.com/a/uploads/original/1535/15354745/2455826-9442134765-canop.png");
+    background-repeat: no-repeat;
+    height:100%;
+    background-size: cover;
+    background-position: center;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type="text"]{
+    border:none;
+    border-bottom: 5px solid gold;
+    padding: 10px;
+    width: 220px;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 50px 20px;
+    font-family: cursive;
+    font-size: 20px;
+}
+#loacation-time>span{
+    display: block;
+    color: white;
+}
+#loacation{
+    font-size: 30px;
+    font-weight: bold;
+}
+#curr-time {
+    font-size: 22px;
+}
+.weather-details{
+    color: white;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#temp{
+    font-size: 100px;
+}
+#weather,#high-low {
+    font-size: 32px;
+}
